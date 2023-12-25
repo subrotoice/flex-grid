@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex: Live Project</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      /* Style the body */
+      body {
+        font-family: Arial;
+        margin: 0;
+      }
+      /* Header/logo Title */
+      .header {
+        padding: 60px;
+        text-align: center;
+        background: #1abc9c;
+        color: white;
+      }
+      .navbar {
+        display: flex;
+        background-color: gray;
+      }
+      .navbar a {
+        text-decoration: none;
+        padding: 10px;
+        color: white;
+        text-align: center;
+      }
+      .navbar a:hover {
+        background-color: whitesmoke;
+        color: black;
+      }
+      .row {
+        display: flex;
+      }
+      .aside {
+        flex: 30%;
+        background-color: #eee;
+        padding: 20px;
+      }
+      .main {
+        background-color: white;
+        flex: 70%;
+        padding: 20px;
+      }
+      /* Fake image, just for this example */
+      .fakeimg {
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+        border-radius: 5px;
+      }
+      .footer {
+        text-align: center;
+        padding: 20px;
+        background: #b4acac;
+      }
+
+      @media screen and (min-width: 1200px) {
+        .aside {
+          order: 1;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .navbar {
+          flex-direction: column;
+        }
+        .row {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex-container">
+      <div class="header">
+        <h1>FlexBox Landing</h1>
+        <p>Subroto Biswas</p>
+      </div>
+      <div class="navbar">
+        <a href="http://">Home</a>
+        <a href="http://">About</a>
+        <a href="http://">Contact</a>
+        <a href="http://">Link</a>
+      </div>
+      <div class="row">
+        <div class="aside">
+          <h1>Sidebar</h1>
+          <div class="fakeimg" style="height: 200px">Image</div>
+        </div>
+        <div class="main">
+          <h1>TITLE HEADING</h1>
+          <div class="fakeimg" style="height: 80px">Image</div>
+          <br />
+          <div class="fakeimg" style="height: 80px">Image</div>
+          <br />
+          <div class="fakeimg" style="height: 80px">Image</div>
+          <br />
+        </div>
+      </div>
+      <div class="footer"><h1>Footer</h1></div>
+    </div>
+  </body>
+</html>
