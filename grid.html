@@ -20,6 +20,7 @@
       .grid-container {
         height: 100vh;
         display: grid;
+        grid-template-columns: repeat(12, 1fr);
         grid-template-rows: 100px 1fr 100px;
         grid-template-areas:
           "h h h h h h h h h h h h"
@@ -41,6 +42,16 @@
       .footer {
         background-color: #636e72;
         grid-area: f;
+      }
+
+      /* Responsive layout adjustments */
+      @media (max-width: 768px) {
+        .grid-container {
+          grid-template-areas:
+            "m m m h h h h h h h h h"
+            "m m m c c c c c c c c c"
+            "f f f f f f f f f f f f";
+        }
       }
     </style>
   </head>
