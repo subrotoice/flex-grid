@@ -1,8 +1,6 @@
 # Flex and Grid
 
-<!-- TABLE OF CONTENTS -->
-
-## Table of Contents
+Gist - [Flex | Grid]([mailto:subrotoiu@gmail.com](https://gist.github.com/subrotoice/128411f202c40fd35346d6995102c109)) 
 
 <!-- HOW TO RUN -->
 
