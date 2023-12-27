@@ -1,7 +1,6 @@
 # Flex and Grid
 
-Gist - ([[mailto:subrotoiu@gmail.com]()]) 
-[Flex | Grid](https://gist.github.com/subrotoice/128411f202c40fd35346d6995102c109)
+Gist - [Flex | Grid](https://gist.github.com/subrotoice/128411f202c40fd35346d6995102c109)
 
 <!-- HOW TO RUN -->
 
