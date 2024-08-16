@@ -1,14 +1,15 @@
 # Flex and Grid
 
-Gist - [Flex | Grid](https://gist.github.com/subrotoice/128411f202c40fd35346d6995102c109)
-https://github.com/subrotoice/flex-grid
-https://css-tricks.com/snippets/css/a-guide-to-flexbox
-https://css-tricks.com/snippets/css/complete-guide-grid
-https://www.youtube.com/watch?v=kRS5ficucNM
+Gist - [Flex | Grid](https://gist.github.com/subrotoice/128411f202c40fd35346d6995102c109) <br >
+https://github.com/subrotoice/flex-grid <br >
+https://css-tricks.com/snippets/css/a-guide-to-flexbox <br >
+https://css-tricks.com/snippets/css/complete-guide-grid <br >
+https://www.youtube.com/watch?v=kRS5ficucNM <br >
 https://www.youtube.com/watch?v=18VLSXfsj94 (Best: Where to use Flex & Grid)
 
+## Flex
+
 ```css
-# Flex Box
 .container {
   display: flex;
   flex-direction: row | row-reverse | column | column-reverse;
@@ -39,8 +40,11 @@ The flex container properties: flex-direction, flex-wrap, flex-flow, justify-con
 }
 
 * { box-sizing: border-box; } // margin, padding er jonno content baire gele, https://www.w3schools.com/css/tryit.asp?filename=trycss3_box-sizing_new
+```
 
-# Grid ------------------------------------------------ https://prnt.sc/7fxv77ak50YY
+## Grid --- https://prnt.sc/7fxv77ak50YY
+
+```css
 .grid-container {
   display: grid;
   grid-template-columns: 100px auto 100px;
@@ -89,11 +93,12 @@ NB: Grid 2 dimentional overall page structure er jonno valo, Grid normally x axi
 
 # Tailwind Responsive Grid
 
-1. [YouTube](https://www.youtube.com/watch?v=b-hrxkgkG-s) [play.tailwindcss.com](https://play.tailwindcss.com/9IEjFauwTF)
-2. [YouTube](https://www.youtube.com/watch?v=WJDw1J7FZnE) [play.tailwindcss.com](https://play.tailwindcss.com/Gnn3B6nBx5)
+1. [YouTube](https://www.youtube.com/watch?v=b-hrxkgkG-s) - [play.tailwindcss.com](https://play.tailwindcss.com/9IEjFauwTF)
+2. [YouTube](https://www.youtube.com/watch?v=WJDw1J7FZnE) - [play.tailwindcss.com](https://play.tailwindcss.com/Gnn3B6nBx5)
 
 ```html
 <!-- tailwind.html -->
+<!-- https://play.tailwindcss.com/9IEjFauwTF -->
 <div class="grid place-items-center p-4">
   <div class="grid max-w-6xl sm:grid-cols-2 gap-4 md:grid-cols-4">
     <h1
