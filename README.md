@@ -126,9 +126,16 @@ NB: Grid 2 dimentional overall page structure er jonno valo, Grid normally x axi
   </div>
 </div>
 ```
-
+## Make a page full screen height [https://prnt.sc/PRnMjOa14CX_](https://prnt.sc/PRnMjOa14CX_)
+```
+grid grid-rows-[auto_1fr_auto] h-screen
+```
+## Make a page full screen height [https://prnt.sc/PRnMjOa14CX_](https://prnt.sc/PRnMjOa14CX_)
+```html
+<div class="max-w-6xl mx-auto">
+  <!-- Content here -->
+</div>
+```
 <!-- CONTACT -->
-
 ## Contact
-
 Subroto Biswas - [subrotoiu@gmail.com](mailto:subrotoiu@gmail.com)
