@@ -22,8 +22,8 @@
 .item {
   align-self: flex-start|flex-end; /*Push item to the tor/bottom*/
   order: 2; /* default is 0 */ jader order nay tara 0 so tara age cole asbe
-  flex-grow: 1; /* default 0 */ min-width thakle content space onujayi barbe, Kono item e value 3 thakle onno item theke 3 times barbe
-  flex-shrink: 0; /* default 1 */ coto hobe ki na
+  flex-grow: 1; /* default 0 (don’t grow) */ min-width thakle content space onujayi barbe, Kono item e value 3 thakle onno item theke 3 times barbe
+  flex-shrink: 0; /* default 1 (shrink allowed) */ coto hobe ki na
   flex-basis: 100px; /* default auto */ min-width er poriborte use kora valo
   flex: 'flex-grow'|'flex-shrink'|'flex-basis'; /* flex: 1, flex-shrink and flex-basis combined */
 }
